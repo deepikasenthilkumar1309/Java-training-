@@ -1,0 +1,13 @@
+USER INPUT:
+import java.util.scanner{
+public static void main(string[] args){
+scanner sc=new scanner(system.in);
+system.out.println("enter your name:");
+string name=sc.nextLine();
+system.out.println("enter your age:");
+int age=sc.nextInt();
+system.out.println("Name:"+name);
+system.out.println("Age:"+age);
+sc.close();
+}
+}
